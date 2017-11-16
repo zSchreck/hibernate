@@ -1,36 +1,31 @@
-package MyPackage;
-
 import java.util.Date;
 
-public class Student extends Person implements java.io.Serializable
-{
+public class Student extends Person implements java.io.Serializable {
 	public String id;
 	public String classification;
 	public double gpa;
 	public int credithours;
 	public Instructor mentorid;
-	
-	public Student()
-	{		
+
+	public Student() {
 	}
-	
-	public Student(String id, String name, Date dob, String address, String classification, double gpa, int credithours, Instructor mentoreid)
-	{
-		super(id,name,dob,address);
-		this.classification=classification;
-		this.gpa=gpa;
-		this.credithours=credithours;
-		this.mentorid=mentoreid;
+
+	public Student(String id, String name, Date dob, String address, String classification, double gpa, int credithours,
+			Instructor mentoreid) {
+		super(id, name, dob, address);
+		this.classification = classification;
+		this.gpa = gpa;
+		this.credithours = credithours;
+		this.mentorid = mentoreid;
 	}
-	
+
 	// if the student already in person
-	public Student(String id, String classification, double gpa, int credithours, Instructor mentoreid)
-	{
+	public Student(String id, String classification, double gpa, int credithours, Instructor mentoreid) {
 		this.id = id;
-		this.classification=classification;
-		this.gpa=gpa;
-		this.credithours=credithours;
-		this.mentorid=mentoreid;
+		this.classification = classification;
+		this.gpa = gpa;
+		this.credithours = credithours;
+		this.mentorid = mentoreid;
 	}
 
 	public String getId() {

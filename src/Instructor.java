@@ -1,26 +1,20 @@
-package MyPackage;
-
 import java.util.Date;
 
-public class Instructor extends Person implements java.io.Serializable
-{
+public class Instructor extends Person implements java.io.Serializable {
 	public String id;
 	public String rank;
 	public int salary;
 
-	public Instructor()
-	{
+	public Instructor() {
 	}
 
-	public Instructor(String id, String name, Date dob, String address, String rank, int salary)
-	{
-		super(id,name,dob,address);
+	public Instructor(String id, String name, Date dob, String address, String rank, int salary) {
+		super(id, name, dob, address);
 		this.rank = rank;
 		this.salary = salary;
 	}
-	
-	public Instructor(String id, String rank, int salary)
-	{
+
+	public Instructor(String id, String rank, int salary) {
 		this.id = id;
 		this.rank = rank;
 		this.salary = salary;
@@ -48,5 +42,5 @@ public class Instructor extends Person implements java.io.Serializable
 
 	public void setSalary(int salary) {
 		this.salary = salary;
-	}	
+	}
 }

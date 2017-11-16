@@ -1,23 +1,17 @@
-package MyPackage;
-
-public class Offering implements java.io.Serializable
-{
+public class Offering implements java.io.Serializable {
 	public String coursecode;
 	public int sectionno;
 	public Instructor instructor;
-	
-	public Offering()
-	{
+
+	public Offering() {
 	}
-	
-	public Offering(String coursecode, int sectionno)
-	{
+
+	public Offering(String coursecode, int sectionno) {
 		this.coursecode = coursecode;
 		this.sectionno = sectionno;
 	}
-	
-	public Offering(String coursecode, int sectionno, Instructor instructor)
-	{
+
+	public Offering(String coursecode, int sectionno, Instructor instructor) {
 		this.coursecode = coursecode;
 		this.sectionno = sectionno;
 		this.instructor = instructor;

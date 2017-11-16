@@ -1,23 +1,17 @@
-package MyPackage;
-
-public class Course implements java.io.Serializable
-{
+public class Course implements java.io.Serializable {
 	public String coursecode;
 	public String coursename;
 	public String prereq;
-	
-	public Course()
-	{		
+
+	public Course() {
 	}
-	
-	public Course(String coursecode, String prereq)
-	{
+
+	public Course(String coursecode, String prereq) {
 		this.coursecode = coursecode;
 		this.prereq = prereq;
 	}
-	
-	public Course(String coursecode, String coursename, String prereq)
-	{
+
+	public Course(String coursecode, String coursename, String prereq) {
 		this.coursecode = coursecode;
 		this.coursename = coursename;
 		this.prereq = prereq;

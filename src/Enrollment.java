@@ -1,24 +1,18 @@
-package MyPackage;
-
-public class Enrollment implements java.io.Serializable
-{
+public class Enrollment implements java.io.Serializable {
 	public String coursecode;
 	public String sectionno;
 	public Student student;
 	public String grade;
-	
-	public Enrollment()
-	{
+
+	public Enrollment() {
 	}
-	
-	public Enrollment(String coursecode, String sectionno)
-	{
+
+	public Enrollment(String coursecode, String sectionno) {
 		this.coursecode = coursecode;
 		this.sectionno = sectionno;
 	}
-	
-	public Enrollment(String coursecode, String sectionno, Student student, String grade)
-	{
+
+	public Enrollment(String coursecode, String sectionno, Student student, String grade) {
 		this.coursecode = coursecode;
 		this.sectionno = sectionno;
 		this.student = student;

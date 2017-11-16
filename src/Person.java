@@ -1,26 +1,20 @@
-package MyPackage;
-
 import java.util.Date;
 
-public class Person implements java.io.Serializable
-{
+public class Person implements java.io.Serializable {
 
 	public String id;
 	public String name;
 	public Date dob;
 	public String address;
-	
-	public Person()
-	{
+
+	public Person() {
 	}
-	
-	public Person(String id)
-	{
+
+	public Person(String id) {
 		this.id = id;
 	}
 
-	public Person(String id, String name, Date dob, String address)
-	{
+	public Person(String id, String name, Date dob, String address) {
 		this.id = id;
 		this.name = name;
 		this.dob = dob;
