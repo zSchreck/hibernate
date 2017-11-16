@@ -1,3 +1,4 @@
+package MyPackage;
 public class Enrollment implements java.io.Serializable {
 	public String coursecode;
 	public String sectionno;

@@ -1,3 +1,4 @@
+package MyPackage;
 import java.util.Date;
 
 public class Student extends Person implements java.io.Serializable {

@@ -6,9 +6,9 @@
     <session-factory>
         <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/coms363hn</property>
-        <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">MohamedIsmael1985</property>
+        <property name="hibernate.connection.url">jdbc:mysql://csdb.cs.iastate.edu:3306/db363zschreck</property>
+        <property name="hibernate.connection.username">dbu363zschreck</property>
+        <property name="hibernate.connection.password">0rABBGS1</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.search.autoregister_listeners">true</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>

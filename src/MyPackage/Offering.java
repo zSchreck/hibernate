@@ -1,3 +1,4 @@
+package MyPackage;
 public class Offering implements java.io.Serializable {
 	public String coursecode;
 	public int sectionno;

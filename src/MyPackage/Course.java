@@ -1,3 +1,4 @@
+package MyPackage;
 public class Course implements java.io.Serializable {
 	public String coursecode;
 	public String coursename;
